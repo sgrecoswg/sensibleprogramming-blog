@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Card, Carousel, Button } from 'react-bootstrap';
+import Hero from './common/Hero';
+import FeaturesTiles from './sections/FeaturesTiles';
+import FeaturesSplit from './sections/FeaturesSplit';
+import Testimonial from './sections/Testimonial';
+import Cta from './sections/Cta';
 
 export class Home extends Component {
   static displayName = Home.name;
 
   render () {
     return (
-      <div>
-            <h4>Creating real world solutions for real world problems.</h4>
-            
+      <div>           
+            <Hero />
+            <FeaturesTiles />
+            <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+            <Testimonial topDivider />
+            <Cta split />
       </div>
     );
   }

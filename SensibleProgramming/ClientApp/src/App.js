@@ -5,7 +5,6 @@ import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { About } from './components/about';
-import { Cryptoverse } from './components/services/Cryptoverse';
 import { WebServices } from './components/services/WebServices';
 import { Automation } from './components/services/Automation';
 import { Services } from './components/Services';
