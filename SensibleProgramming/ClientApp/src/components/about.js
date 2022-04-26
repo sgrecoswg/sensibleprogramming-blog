@@ -20,9 +20,13 @@ export class About extends Component {
       <div>
         <h1>About us</h1>
 
-        <p>Bringing real world solutions to real world problems for over a decade. We can </p>turn ideas into reality.
+        <p>Bringing real world solutions to real world problems for over a decade. </p>
+        We can turn ideas into reality.
 
-        
+        <p>80% of the benefit is in 20% of the work.
+          By breaking the solutions down into smaller parts, we can deliver small definable goals. Allowing you the flexibility
+          to stop when you feel like it. When it is time to enhance what is there, we are here for you.
+        </p>
       </div>
     );
   }

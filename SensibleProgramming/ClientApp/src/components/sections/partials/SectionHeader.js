@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { Link } from "react-router-dom";
 
 const propTypes = {
   data: PropTypes.shape({
@@ -48,7 +49,7 @@ const SectionHeader = ({
                 )}>{data.title}</Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p className="m-0">{data.paragraph}{<Link  to="/pricing"> pricing </Link>}.</p>
             }
           </div>
         </div>

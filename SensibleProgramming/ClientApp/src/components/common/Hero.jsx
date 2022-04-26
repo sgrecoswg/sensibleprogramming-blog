@@ -60,9 +60,10 @@ const Hero = ({
             <div className="container-sm">
                 <div className={innerClasses}>
                     <div className="hero-content">
-                        <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                            Creating real world solutions for real world problems.
-                        </h1>
+                        <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+                            Real world solutions for real world problems. 
+                            <div>Thats Sensible Programming &trade;</div>
+                        </h3>
                         <div className="container-xs">
                             <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                               

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
@@ -44,8 +46,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Explore our services',
-    paragraph: 'Take a tour of all the services we offer.'
+    title: 'Available services',
+    paragraph: 'Explore some of the many computer programming services we offer at very affordable',
+    linkTo:"/pricing"
   };
 
   return (
@@ -71,7 +74,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Custom websites
+                  <NavLink tag={Link} className="text-light" to="/services/web">Custom websites</NavLink>
                     </h4>
                   <p className="m-0 text-sm">
                     Control your brand by owning your own web site.
@@ -93,7 +96,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Automation
+                    <NavLink tag={Link} className="text-light" to="/services/automation">Automation</NavLink>
                     </h4>
                   <p className="m-0 text-sm">
                     Automate redundant tasks to make the most of your time.
@@ -115,7 +118,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Crypto Services
+                    <NavLink tag={Link} className="text-light" to="/services/crypto/home">Crypto Services</NavLink>
                     </h4>
                   <p className="m-0 text-sm">
                     Explore the Cryptoverse. From crypto currency, NFTs, and smart contracts.

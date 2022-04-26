@@ -18,7 +18,7 @@ export class Cryptoverse extends Component {
   render() {
     return (
       <div>
-            <h1>Cryptoverse services</h1>
+        <h1>Services in the cryptoverse</h1>
 
         <p>Contact us for more details on the crypto related services we offer.</p>
 
