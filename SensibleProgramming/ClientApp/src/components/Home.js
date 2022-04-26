@@ -6,6 +6,7 @@ import FeaturesTiles from './sections/FeaturesTiles';
 import FeaturesSplit from './sections/FeaturesSplit';
 import Testimonial from './sections/Testimonial';
 import Cta from './sections/Cta';
+import Footer from './layout/Footer';
 
 export class Home extends Component {
   static displayName = Home.name;
@@ -15,9 +16,10 @@ export class Home extends Component {
       <div>           
             <Hero />
             <FeaturesTiles />
-            <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-            <Testimonial topDivider />
-            <Cta split />
+            {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
+            {/* <Testimonial topDivider /> */}
+            {/* <Cta split /> */}
+            <Footer />
       </div>
     );
   }

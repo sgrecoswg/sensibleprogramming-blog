@@ -65,12 +65,11 @@ const Hero = ({
                         </h1>
                         <div className="container-xs">
                             <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                              ipsum delorem
-                </p>
-                            
+                              
+                            </p>                            
                         </div>
                     </div>
-                    <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+                    {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
                         <a
                             data-video="https://player.vimeo.com/video/174002812"
                             href="#0"
@@ -90,7 +89,7 @@ const Hero = ({
                         show={videoModalActive}
                         handleClose={closeModal}
                         video="https://player.vimeo.com/video/174002812"
-                        videoTag="iframe" />
+                        videoTag="iframe" /> */}
                 </div>
             </div>
         </section>

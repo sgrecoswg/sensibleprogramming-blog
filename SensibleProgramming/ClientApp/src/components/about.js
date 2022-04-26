@@ -18,9 +18,9 @@ export class About extends Component {
   render() {
     return (
       <div>
-        <h1>About</h1>
+        <h1>About us</h1>
 
-        <p>Still thinking about it.</p>
+        <p>Bringing real world solutions to real world problems for over a decade. We can </p>turn ideas into reality.
 
         
       </div>

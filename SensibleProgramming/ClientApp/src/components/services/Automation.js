@@ -18,9 +18,9 @@ export class Automation extends Component {
   render() {
     return (
       <div>
-        <h1>automation services</h1>
+        <h1>Automation services</h1>
 
-        <p>Still thinking about it.</p>
+        <p>Contact us for the automation solutions we can provide.</p>
 
         
       </div>
